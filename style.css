@@ -10,3 +10,7 @@ h1 {
 #unikatni{
 background-color: pink;
 }
+
+h5:hover{
+color: blue;
+}
