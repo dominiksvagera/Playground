@@ -1,20 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>Nadpis h1</h1>
-    <h2>Nadpis H2</h2>
-    <h3 class="nadpis">Nadpis H3</h3>
-    <h4>Napis h4</h4>
-    <h5>Nadpis H5</h5>
-    <h6>Nadpis H6</h6>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, officiis eveniet neque possimus reprehenderit maxime quia corporis, eligendi eius atque fugit cumque. Ea possimus est fuga et aperiam, sunt explicabo!</p>
+
+    <h1 class="text-sm">Nadpis h1</h1>
+    <h2 class="text-2xl hover:underline cursor-pointer">Nadpis H2</h2>
+    <h3 class="text-xl">Nadpis H3</h3>
+    <h4 class="text-md border mx-4 my-4">Napis h4</h4>
+    <h5 class="text-base underline">Nadpis H5</h5>
+    <h6 class="text-9xl underline hover:decoration-double">Nadpis H6</h6>
+
+    <p class="text-gray-500 border pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, officiis eveniet neque possimus reprehenderit maxime quia corporis, eligendi eius atque fugit cumque. Ea possimus est fuga et aperiam, sunt explicabo!</p>
+
+<div class="flex bg-pink-100 h-48 items-center justify-between">
+    <div class="flex">
+    <div class="w-24 bg-pink-300 h-24 m-2 shadow-lg rounded-2xl"></div>
+    <div class="w-24 bg-red-300 h-24 m-2 shadow-lg rounded-2xl"> </div>
+    </div>
+
+    <div class="flex">
+    <div class="w-24 bg-blue-300 h-24 m-2 shadow-lg rounded-2xl"></div>
+    <div class="w-24 bg-green-300 h-24 m-2 shadow-lg rounded-2xl"></div>
+    </div>
+</div>
+
+<header class="bg-zinc-100 flex items-center justify-between px-4 py-8 shadow">
+    
+    <a href="logo">Logo Společnosti</a>
+
+    <nav class="flex gap-4">
+        <a href="Link 1">Link1</a>
+        <a href="ling 2">Link2</a>
+        <a href="link 3">Link3</a>
+        <a href="link 4">Link4</a>
+    </nav>
+
+    <div class="flex gap-3">
+        <p>IC</p>
+        <p>LO</p>
+    </div>
+</header>
+
+<main class="px-8 py-3">
+
+    <div class="bg-gray-500 w-full p-8">
+
+        <div class="text-white space-y-2">
+            <p class="text-3xl font-serif">Povzneste své tělo, pohlaďte svou duši</p>
+            <p>Objevte Kintsugi Perfumes</p>
+            <button class="border p-3 font-serif">Set se vzorky</button>
+        </div>
+
+    </div>
+
+</main>
+
+
 
     <ul>
         <li id="unikatni">Ahoj</li>
